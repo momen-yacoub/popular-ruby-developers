@@ -1,0 +1,24 @@
+AllCops:
+  Exclude:
+    - 'Gemfile'
+    - 'app/mailers/**/*'
+    - 'app/models/application_record.rb'
+    - 'bin/**/*'
+    - 'config/**/*'
+    - 'db/schema.rb'
+    - 'db/migrate/**/*'
+    - 'spec/rails_helper.rb'
+    - 'spec/spec_helper.rb'
+    - 'vendor/**/*'
+Style/Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/LineLength:
+  IgnoredPatterns: ['(\A|\s)#']
+  Max: 120
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
