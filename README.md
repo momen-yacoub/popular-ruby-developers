@@ -14,6 +14,7 @@ URL : /api/trending_developers/list <br />
 Method : GET <br />
 Request params: {} <br />
 Response: <br />
+<p>
 [ <br />
   { <br />
     "name": "Mike Perham", <br />
@@ -27,3 +28,5 @@ Response: <br />
     } <br />
   },.. <br />
 ] <br />
+
+</p>
