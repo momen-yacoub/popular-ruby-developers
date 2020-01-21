@@ -1,24 +1,29 @@
-# README
+Details About the project:
+ruby version: 2.6.4
+rails version: 5.2.4
+link for herkou deployed: https://popular-ruby-developers.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Details About the Endpoints:
 
-Things you may want to cover:
 
-* Ruby version
+TrendingDevelopers
 
-* System dependencies
+get: List
+URL : /api/trending_developers/list
+Method : GET
+Request params: {}
+Response:
+[ 
+  {
+    "name": "Mike Perham",
+    "username": "mperham",
+    "type": „user“,
+    "avatar": "https://avatars0.githubusercontent.com/u/xxxx“,
+    "repo": {
+      "name": "repository name",
+      "description": "project description",
+      "url": "https://github.com/username/project"
+    }
+  },..
+]
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
