@@ -10,25 +10,25 @@ to run test using [travise](https://github.com/MomenSaeed/popular-ruby-developer
 ## Details About the Endpoints:
 ### `TrendingDevelopers`
 
+```
+get: List
+URL : /api/trending_developers/list
+Method : GET
+Request params: {}
+Response:
 
-get: List <br />
-URL : /api/trending_developers/list <br />
-Method : GET <br />
-Request params: {} <br />
-Response: <br />
-<p>
-[ <br />
-  { <br />
-    "name": "Mike Perham", <br />
-    "username": "mperham", <br />
+[ 
+  { 
+    "name": "Mike Perham", 
+    "username": "mperham", 
     "type": „user“,
-    "avatar": "https://avatars0.githubusercontent.com/u/xxxx“, <br />
-    "repo": { <br />
-      "name": "repository name", <br />
-      "description": "project description", <br />
-      "url": "https://github.com/username/project" <br />
-    } <br />
-  },.. <br />
-] <br />
+    "avatar": "https://avatars0.githubusercontent.com/u/xxxx“,
+    "repo": {
+      "name": "repository name", 
+      "description": "project description", 
+      "url": "https://github.com/username/project"
+    }
+  },.. 
+]
 
-</p>
+```
